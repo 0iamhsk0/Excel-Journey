@@ -1,0 +1,115 @@
+#.## - gives the exact values in excel
+? - gives the non decimal result
+0.00? - gives a space in the decimal-hundreds place
+, - replaces 3 zero's
+space on the right side gives a +no.
+(234) - is a negative no.
+(0.0) - represnetation of a negative no.
+_ - gives space
+$ - to lock something (cell or column)
+
+=vlookup(look up stored cell; data cells address; lookup value; 0)
+ctrl+shift+L = remove the filters
+
+
+1. Data Visualization in Excel 17hrs ⭐
+https://www.coursera.org/learn/excel-data-visualization
+2. Create Charts and Dashboards Using Microsoft Excel 2hrs ⭐
+https://www.coursera.org/projects/create-charts-dashboards-using-microsoft-excel
+3. Excel Basics for Data Analysis 11hrs 
+https://www.coursera.org/learn/excel-basics-data-analysis-ibm
+4. Excel Skills for Data Analytics and Visualization Specialization 1m https://www.coursera.org/specializations/excel-data-analytics-visualization 
+5. Excel Skills for Business Specialization 3m
+ https://www.coursera.org/specializations/excel
+
+// lookups
+vloopkup
+hlookup
+match
+
+// if
+// nexted if, and, or etc
+
+//exception handling
+	isErr
+	isError
+	isNA
+	Error.type
+	ifNA
+// error handling is similar to boundary value analysis in software testing
+
+
+//finance:
+	pmt() - for calc the financial rates / per month installment like EMI
+	fv - future value value in months
+	IPMT - 
+	ipmt + ppmt = pmt 
+	 
+
+https://www.coursera.org/search?query=Data%20Science%20Specialization&skipBrowseRedirect=true
+
+
+// volatile functions
+like today and now which always change time to time
+-today
+-now
+- rand gives any value >=0 and <= 1 gives floating
+- randbetween // gives the integers
+- cell(" ") has many methods to access the sheet contents
+	text with I and digits with V
+- info(" ") has many methods for accessing the excel and system
+	
+
+
+//trigo func
+sum
+product
+sumproduct (sum od products)
+round - 		with multiples
+floor - lower value 	||
+ceil - upper value 	||
+sumiff - sum with condition
+countif - count with ||
+averageif - average || || 
+sumifs - sum with multi conditions
+countifs - 
+averageifs - 
+
+
+//soriting techniques
+
+
+
+//pivot table
+	pivot table field - is like a multidimensional 1D table
+
+
+//charts from INSERT section
+
+
+//power pivots
+when we load the data set into it, it becomes data model
+
+user =related()  - used to fectch details form another sheet
+
+create pivot table and charts for power_pivot 3X2=6 items
+
+
+//DAX functions in power pivot
+
+sumx does the sum + evaluates the given expression too
+
+avgx - it considers the 0 value too and does the avg and doesnt support bool and text(whereas avgax does the job)
+if "" it treats as 0
+T = 1, F = 0
+
+count - normal count
+countx - doesnt count the logical values(error)
+counta - works on everything(without cond)
+countax - works on everything(with cond)
+
+filter(table name, column condition)
+
+
+//dashboards
+pre analysis and post analysis of data and create the objectives
