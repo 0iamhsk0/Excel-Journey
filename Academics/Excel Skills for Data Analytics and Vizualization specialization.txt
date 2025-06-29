@@ -1,0 +1,11 @@
+Excel Skills for Data Analytics and Visualization Specialization 
+>1month course
+ 
+link <- https://www.coursera.org/specializations/excel-data-analytics-visualization
+
+Part 1 - Excel Fundamentals for Data Analysis
+1. combining text values:
+	by using - concatenate(), concatenate operator, concat(), textjoin()
+
+2. functions to split the text data
+	
